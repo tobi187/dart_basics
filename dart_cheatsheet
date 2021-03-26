@@ -1,0 +1,17 @@
+dart coversion types:
+  - str to int --> int.parse(<string>)
+  - str to double --> double.parse(<string>)
+  - int to str --> <int>.toString()
+  - double to str --> <double>.toStringasFixed(<numbers after comma>)
+  
+looping throug string with runes class:
+for (int rune in runes.<string>){
+  String char = rune.fromCharCode(); // char = buchstabe 
+}
+// with forEach loop // basic loop 
+<string>.runes.forEach((int rune){
+  String char = rune.fromCharCode();
+})
+
+lists 
+  - get last entry = <list>.last
