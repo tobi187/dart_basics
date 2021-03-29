@@ -4,7 +4,8 @@ dart coversion types:
   - int to str --> <int>.toString()
   - double to str --> <double>.toStringasFixed(<numbers after comma>)
   
-looping throug string with runes class:
+loops:
+  -looping throug string with runes class:
 for (int rune in runes.<string>){
   String char = rune.fromCharCode(); // char = buchstabe 
 }
@@ -15,3 +16,7 @@ for (int rune in runes.<string>){
 
 lists 
   - get last entry = <list>.last
+
+function
+  - String bool_to_word(bool boolean) => boolean ? "Yes" : "No";
+  - one liner (fat arrow) means: return "Yes" if boolean(<- variable) true else "No"
